@@ -21,7 +21,8 @@ int main(int argc, char* argv[]) {
 		"pariatur. Excepteur sint occaecat cupidatat non proident, sunt in "
 		"culpa qui officia deserunt mollit anim id est laborum.";
 
-	std::cout << LineLength(78) << Indent(4) << lorem << endl << endl<< lorem;
+	std::cout << LineLength(78) << Indent(4) << lorem << endl << endl <<
+		Indent(8) << lorem << endl;
 
 	return 0;
 }
