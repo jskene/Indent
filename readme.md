@@ -25,6 +25,7 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
+```
 
 Note the use of `endl` rather than `std::endl` in the above.  This ensures
 correct indentation of the second paragraph.
