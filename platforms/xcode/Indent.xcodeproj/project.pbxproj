@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93F770228D7DB0700BAAF75 /* Indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F628D7DB0600BAAF75 /* Indent.h */; };
+		B93F770328D7DB0700BAAF75 /* Allowance.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F728D7DB0600BAAF75 /* Allowance.h */; };
+		B93F770428D7DB0700BAAF75 /* LineLength.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F828D7DB0600BAAF75 /* LineLength.h */; };
+		B93F770528D7DB0700BAAF75 /* Indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FA28D7DB0600BAAF75 /* Indent.h */; };
+		B93F770628D7DB0700BAAF75 /* Allowance.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FB28D7DB0600BAAF75 /* Allowance.h */; };
+		B93F770728D7DB0700BAAF75 /* LineLength.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FC28D7DB0600BAAF75 /* LineLength.h */; };
+		B93F770828D7DB0700BAAF75 /* inserters.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FD28D7DB0600BAAF75 /* inserters.h */; };
+		B93F770928D7DB0700BAAF75 /* audit.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FF28D7DB0600BAAF75 /* audit.h */; };
+		B93F770A28D7DB0700BAAF75 /* earlymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F770028D7DB0600BAAF75 /* earlymacros.h */; };
+		B93F770B28D7DB0700BAAF75 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F770128D7DB0600BAAF75 /* settings.h */; };
 		B9E8FE9228B426D8009558BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE8528B4267A009558BB /* main.cpp */; };
 		B9E8FE9828B42A65009558BB /* indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E8FE9728B42A65009558BB /* indent.h */; };
 		B9E8FE9B28B42B11009558BB /* Indent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE9A28B42B11009558BB /* Indent.cpp */; };
@@ -40,6 +50,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B93F76F628D7DB0600BAAF75 /* Indent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indent.h; sourceTree = "<group>"; };
+		B93F76F728D7DB0600BAAF75 /* Allowance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allowance.h; sourceTree = "<group>"; };
+		B93F76F828D7DB0600BAAF75 /* LineLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLength.h; sourceTree = "<group>"; };
+		B93F76FA28D7DB0600BAAF75 /* Indent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indent.h; sourceTree = "<group>"; };
+		B93F76FB28D7DB0600BAAF75 /* Allowance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allowance.h; sourceTree = "<group>"; };
+		B93F76FC28D7DB0600BAAF75 /* LineLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLength.h; sourceTree = "<group>"; };
+		B93F76FD28D7DB0600BAAF75 /* inserters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inserters.h; sourceTree = "<group>"; };
+		B93F76FF28D7DB0600BAAF75 /* audit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audit.h; sourceTree = "<group>"; };
+		B93F770028D7DB0600BAAF75 /* earlymacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = earlymacros.h; sourceTree = "<group>"; };
+		B93F770128D7DB0600BAAF75 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
 		B9E8FE7D28B42648009558BB /* libIndent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIndent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E8FE8528B4267A009558BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B9E8FE8B28B426C1009558BB /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +70,6 @@
 		B9E8FEBC28B5A7EB009558BB /* inserters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inserters.cpp; sourceTree = "<group>"; };
 		B9E8FEBF28B6E895009558BB /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = readme.md; path = ../../readme.md; sourceTree = "<group>"; };
 		B9E8FEC028B6EA88009558BB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		B9E8FEC528B6EB99009558BB /* implementation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = implementation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +91,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B93F76F328D7DB0600BAAF75 /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				B93F76F428D7DB0600BAAF75 /* indent */,
+				B93F76FE28D7DB0600BAAF75 /* config */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		B93F76F428D7DB0600BAAF75 /* indent */ = {
+			isa = PBXGroup;
+			children = (
+				B93F76F928D7DB0600BAAF75 /* interfaces */,
+				B93F76F528D7DB0600BAAF75 /* operations */,
+			);
+			path = indent;
+			sourceTree = "<group>";
+		};
+		B93F76F528D7DB0600BAAF75 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				B93F76F728D7DB0600BAAF75 /* Allowance.h */,
+				B93F76F628D7DB0600BAAF75 /* Indent.h */,
+				B93F76F828D7DB0600BAAF75 /* LineLength.h */,
+			);
+			path = operations;
+			sourceTree = "<group>";
+		};
+		B93F76F928D7DB0600BAAF75 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				B93F76FB28D7DB0600BAAF75 /* Allowance.h */,
+				B93F76FA28D7DB0600BAAF75 /* Indent.h */,
+				B93F76FD28D7DB0600BAAF75 /* inserters.h */,
+				B93F76FC28D7DB0600BAAF75 /* LineLength.h */,
+			);
+			path = interfaces;
+			sourceTree = "<group>";
+		};
+		B93F76FE28D7DB0600BAAF75 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				B93F76FF28D7DB0600BAAF75 /* audit.h */,
+				B93F770028D7DB0600BAAF75 /* earlymacros.h */,
+				B93F770128D7DB0600BAAF75 /* settings.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
 		B9E8FE7428B42648009558BB = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +182,7 @@
 		B9E8FE9528B42A51009558BB /* indent */ = {
 			isa = PBXGroup;
 			children = (
-				B9E8FEC528B6EB99009558BB /* implementation */,
+				B93F76F328D7DB0600BAAF75 /* implementation */,
 				B9E8FE9728B42A65009558BB /* indent.h */,
 				B9E8FEC028B6EA88009558BB /* config.h */,
 			);
@@ -155,8 +223,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93F770828D7DB0700BAAF75 /* inserters.h in Headers */,
+				B93F770628D7DB0700BAAF75 /* Allowance.h in Headers */,
 				B9E8FEC128B6EA88009558BB /* config.h in Headers */,
+				B93F770428D7DB0700BAAF75 /* LineLength.h in Headers */,
+				B93F770A28D7DB0700BAAF75 /* earlymacros.h in Headers */,
+				B93F770228D7DB0700BAAF75 /* Indent.h in Headers */,
+				B93F770728D7DB0700BAAF75 /* LineLength.h in Headers */,
 				B9E8FE9828B42A65009558BB /* indent.h in Headers */,
+				B93F770528D7DB0700BAAF75 /* Indent.h in Headers */,
+				B93F770B28D7DB0700BAAF75 /* settings.h in Headers */,
+				B93F770928D7DB0700BAAF75 /* audit.h in Headers */,
+				B93F770328D7DB0700BAAF75 /* Allowance.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +283,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					B9E8FE7C28B42648009558BB = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -298,6 +376,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -357,6 +436,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -380,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -390,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -399,7 +481,9 @@
 		B9E8FE9028B426C1009558BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -407,7 +491,9 @@
 		B9E8FE9128B426C1009558BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

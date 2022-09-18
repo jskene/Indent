@@ -63,6 +63,15 @@ namespace indent {
 		indent = 0;
         return *this;
     }
+    
+    Indent
+    Indent::
+    operator+(std::size_t extra) {
+    
+		Indent result { *this };
+		result.indent += extra;
+		return result;
+	}
 
 // Comparison //////////////////////////////////////////////////////////////////
     

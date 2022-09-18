@@ -70,5 +70,12 @@ namespace indent {
 			continuation
 		};
     }
+    
+	template<class Stream>
+    Stream& operator>>(Stream& out, LineLength& manipulator) {
+    
+		manipulator = getLineLength(out);
+		return out;
+	}
 }
 

@@ -75,6 +75,8 @@ namespace indent {
             const Indent& other) = default;
         
         Indent& operator=(Indent&& other);
+        
+        Indent operator+(std::size_t extra);
             
     protected:
     
@@ -100,4 +102,7 @@ namespace indent {
     
     template<class Stream>
     Indent getIndent(Stream& s);
+    
+	template<class Stream>
+    Stream& operator>>(Stream& out, Indent& manipulator);
 }

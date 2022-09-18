@@ -27,6 +27,6 @@
 
 #define INDENT_CONFIG_H_INCLUDED
 
-#include "indent/implementation/config/interfaces/earlymacros.h"
-#include "indent/implementation/config/interfaces/settings.h"
-#include "indent/implementation/config/interfaces/audit.h"
+#include "indent/implementation/config/earlymacros.h"
+#include "indent/implementation/config/settings.h"
+#include "indent/implementation/config/audit.h"

@@ -150,4 +150,7 @@ namespace indent {
     
     template<class Stream>
     LineLength getLineLength(Stream& s);
+    
+	template<class Stream>
+    Stream& operator>>(Stream& out, LineLength& manipulator);
 }

@@ -48,5 +48,12 @@ namespace indent {
 		long& indent = s.iword(Indent::indentIndex);
 		return Indent { indent };
     }
+    
+	template<class Stream>
+    Stream& operator>>(Stream& out, Indent& manipulator) {
+    
+		manipulator = getIndent(out);
+		return out;
+	}
 }
 
