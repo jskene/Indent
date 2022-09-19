@@ -7,37 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B93F770228D7DB0700BAAF75 /* Indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F628D7DB0600BAAF75 /* Indent.h */; };
-		B93F770328D7DB0700BAAF75 /* Allowance.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F728D7DB0600BAAF75 /* Allowance.h */; };
-		B93F770428D7DB0700BAAF75 /* LineLength.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76F828D7DB0600BAAF75 /* LineLength.h */; };
-		B93F770528D7DB0700BAAF75 /* Indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FA28D7DB0600BAAF75 /* Indent.h */; };
-		B93F770628D7DB0700BAAF75 /* Allowance.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FB28D7DB0600BAAF75 /* Allowance.h */; };
-		B93F770728D7DB0700BAAF75 /* LineLength.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FC28D7DB0600BAAF75 /* LineLength.h */; };
-		B93F770828D7DB0700BAAF75 /* inserters.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FD28D7DB0600BAAF75 /* inserters.h */; };
-		B93F770928D7DB0700BAAF75 /* audit.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F76FF28D7DB0600BAAF75 /* audit.h */; };
-		B93F770A28D7DB0700BAAF75 /* earlymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F770028D7DB0600BAAF75 /* earlymacros.h */; };
-		B93F770B28D7DB0700BAAF75 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F770128D7DB0600BAAF75 /* settings.h */; };
+		B908069528D8145C00BB12A5 /* libIndentFloods.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B908069128D8144D00BB12A5 /* libIndentFloods.dylib */; };
+		B908069628D8145C00BB12A5 /* libIndentFloods.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = B908069128D8144D00BB12A5 /* libIndentFloods.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B908069928D815C100BB12A5 /* LineLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEB828B57C65009558BB /* LineLength.cpp */; };
+		B908069A28D815C100BB12A5 /* Indent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE9A28B42B11009558BB /* Indent.cpp */; };
+		B908069B28D815C100BB12A5 /* Allowance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBA28B57E8C009558BB /* Allowance.cpp */; };
+		B908069C28D815C100BB12A5 /* inserters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBC28B5A7EB009558BB /* inserters.cpp */; };
+		B90806A528D815DE00BB12A5 /* inserters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBC28B5A7EB009558BB /* inserters.cpp */; };
+		B90806A628D815DE00BB12A5 /* LineLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEB828B57C65009558BB /* LineLength.cpp */; };
+		B90806A728D815DE00BB12A5 /* Allowance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBA28B57E8C009558BB /* Allowance.cpp */; };
+		B90806A828D815DE00BB12A5 /* Indent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE9A28B42B11009558BB /* Indent.cpp */; };
 		B9E8FE9228B426D8009558BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE8528B4267A009558BB /* main.cpp */; };
-		B9E8FE9828B42A65009558BB /* indent.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E8FE9728B42A65009558BB /* indent.h */; };
-		B9E8FE9B28B42B11009558BB /* Indent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FE9A28B42B11009558BB /* Indent.cpp */; };
-		B9E8FEA528B43065009558BB /* libIndent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E8FE7D28B42648009558BB /* libIndent.a */; };
-		B9E8FEB928B57C65009558BB /* LineLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEB828B57C65009558BB /* LineLength.cpp */; };
-		B9E8FEBB28B57E8C009558BB /* Allowance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBA28B57E8C009558BB /* Allowance.cpp */; };
-		B9E8FEBD28B5A7EB009558BB /* inserters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E8FEBC28B5A7EB009558BB /* inserters.cpp */; };
-		B9E8FEC128B6EA88009558BB /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E8FEC028B6EA88009558BB /* config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B9E8FEA628B43065009558BB /* PBXContainerItemProxy */ = {
+		B908069728D8145C00BB12A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9E8FE7528B42648009558BB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9E8FE7C28B42648009558BB;
-			remoteInfo = Indent;
+			remoteGlobalIDString = B908069028D8144D00BB12A5;
+			remoteInfo = IndentFloods;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B908068C28D813B100BB12A5 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B908069628D8145C00BB12A5 /* libIndentFloods.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9E8FE8928B426C1009558BB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B908069128D8144D00BB12A5 /* libIndentFloods.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libIndentFloods.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90806A128D815D700BB12A5 /* libIndentStd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libIndentStd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93F76F628D7DB0600BAAF75 /* Indent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indent.h; sourceTree = "<group>"; };
 		B93F76F728D7DB0600BAAF75 /* Allowance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allowance.h; sourceTree = "<group>"; };
 		B93F76F828D7DB0600BAAF75 /* LineLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLength.h; sourceTree = "<group>"; };
@@ -60,9 +66,9 @@
 		B93F76FF28D7DB0600BAAF75 /* audit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audit.h; sourceTree = "<group>"; };
 		B93F770028D7DB0600BAAF75 /* earlymacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = earlymacros.h; sourceTree = "<group>"; };
 		B93F770128D7DB0600BAAF75 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
-		B9E8FE7D28B42648009558BB /* libIndent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIndent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93F771428D7FB0000BAAF75 /* libFloods.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libFloods.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E8FE8528B4267A009558BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B9E8FE8B28B426C1009558BB /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E8FE8B28B426C1009558BB /* IndentTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IndentTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E8FE9728B42A65009558BB /* indent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indent.h; sourceTree = "<group>"; };
 		B9E8FE9A28B42B11009558BB /* Indent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Indent.cpp; sourceTree = "<group>"; };
 		B9E8FEB828B57C65009558BB /* LineLength.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineLength.cpp; sourceTree = "<group>"; };
@@ -73,7 +79,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9E8FE7B28B42648009558BB /* Frameworks */ = {
+		B908068F28D8144D00BB12A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908069F28D815D700BB12A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E8FEA528B43065009558BB /* libIndent.a in Frameworks */,
+				B908069528D8145C00BB12A5 /* libIndentFloods.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +168,9 @@
 		B9E8FE7E28B42648009558BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9E8FE7D28B42648009558BB /* libIndent.a */,
-				B9E8FE8B28B426C1009558BB /* Test */,
+				B9E8FE8B28B426C1009558BB /* IndentTest */,
+				B908069128D8144D00BB12A5 /* libIndentFloods.dylib */,
+				B90806A128D815D700BB12A5 /* libIndentStd.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,6 +217,7 @@
 		B9E8FEA428B43065009558BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B93F771428D7FB0000BAAF75 /* libFloods.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,61 +234,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B9E8FE7928B42648009558BB /* Headers */ = {
+		B908068D28D8144D00BB12A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93F770828D7DB0700BAAF75 /* inserters.h in Headers */,
-				B93F770628D7DB0700BAAF75 /* Allowance.h in Headers */,
-				B9E8FEC128B6EA88009558BB /* config.h in Headers */,
-				B93F770428D7DB0700BAAF75 /* LineLength.h in Headers */,
-				B93F770A28D7DB0700BAAF75 /* earlymacros.h in Headers */,
-				B93F770228D7DB0700BAAF75 /* Indent.h in Headers */,
-				B93F770728D7DB0700BAAF75 /* LineLength.h in Headers */,
-				B9E8FE9828B42A65009558BB /* indent.h in Headers */,
-				B93F770528D7DB0700BAAF75 /* Indent.h in Headers */,
-				B93F770B28D7DB0700BAAF75 /* settings.h in Headers */,
-				B93F770928D7DB0700BAAF75 /* audit.h in Headers */,
-				B93F770328D7DB0700BAAF75 /* Allowance.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908069D28D815D700BB12A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B9E8FE7C28B42648009558BB /* Indent */ = {
+		B908069028D8144D00BB12A5 /* IndentFloods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9E8FE8128B42648009558BB /* Build configuration list for PBXNativeTarget "Indent" */;
+			buildConfigurationList = B908069228D8144D00BB12A5 /* Build configuration list for PBXNativeTarget "IndentFloods" */;
 			buildPhases = (
-				B9E8FE7928B42648009558BB /* Headers */,
-				B9E8FE7A28B42648009558BB /* Sources */,
-				B9E8FE7B28B42648009558BB /* Frameworks */,
+				B908068D28D8144D00BB12A5 /* Headers */,
+				B908068E28D8144D00BB12A5 /* Sources */,
+				B908068F28D8144D00BB12A5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Indent;
-			productName = Indent;
-			productReference = B9E8FE7D28B42648009558BB /* libIndent.a */;
-			productType = "com.apple.product-type.library.static";
+			name = IndentFloods;
+			productName = IndentFloods;
+			productReference = B908069128D8144D00BB12A5 /* libIndentFloods.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
-		B9E8FE8A28B426C1009558BB /* Test */ = {
+		B90806A028D815D700BB12A5 /* IndentStd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9E8FE8F28B426C1009558BB /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = B90806A228D815D700BB12A5 /* Build configuration list for PBXNativeTarget "IndentStd" */;
+			buildPhases = (
+				B908069D28D815D700BB12A5 /* Headers */,
+				B908069E28D815D700BB12A5 /* Sources */,
+				B908069F28D815D700BB12A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndentStd;
+			productName = IndentStd;
+			productReference = B90806A128D815D700BB12A5 /* libIndentStd.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		B9E8FE8A28B426C1009558BB /* IndentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E8FE8F28B426C1009558BB /* Build configuration list for PBXNativeTarget "IndentTest" */;
 			buildPhases = (
 				B9E8FE8728B426C1009558BB /* Sources */,
 				B9E8FE8828B426C1009558BB /* Frameworks */,
 				B9E8FE8928B426C1009558BB /* CopyFiles */,
+				B908068C28D813B100BB12A5 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B9E8FEA728B43065009558BB /* PBXTargetDependency */,
+				B908069828D8145C00BB12A5 /* PBXTargetDependency */,
 			);
-			name = Test;
+			name = IndentTest;
 			productName = Test;
-			productReference = B9E8FE8B28B426C1009558BB /* Test */;
+			productReference = B9E8FE8B28B426C1009558BB /* IndentTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -285,8 +313,11 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					B9E8FE7C28B42648009558BB = {
-						CreatedOnToolsVersion = 13.4.1;
+					B908069028D8144D00BB12A5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B90806A028D815D700BB12A5 = {
+						CreatedOnToolsVersion = 14.0;
 					};
 					B9E8FE8A28B426C1009558BB = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -306,21 +337,33 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9E8FE7C28B42648009558BB /* Indent */,
-				B9E8FE8A28B426C1009558BB /* Test */,
+				B9E8FE8A28B426C1009558BB /* IndentTest */,
+				B908069028D8144D00BB12A5 /* IndentFloods */,
+				B90806A028D815D700BB12A5 /* IndentStd */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9E8FE7A28B42648009558BB /* Sources */ = {
+		B908068E28D8144D00BB12A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E8FE9B28B42B11009558BB /* Indent.cpp in Sources */,
-				B9E8FEBD28B5A7EB009558BB /* inserters.cpp in Sources */,
-				B9E8FEB928B57C65009558BB /* LineLength.cpp in Sources */,
-				B9E8FEBB28B57E8C009558BB /* Allowance.cpp in Sources */,
+				B908069928D815C100BB12A5 /* LineLength.cpp in Sources */,
+				B908069C28D815C100BB12A5 /* inserters.cpp in Sources */,
+				B908069A28D815C100BB12A5 /* Indent.cpp in Sources */,
+				B908069B28D815C100BB12A5 /* Allowance.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908069E28D815D700BB12A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90806A528D815DE00BB12A5 /* inserters.cpp in Sources */,
+				B90806A828D815DE00BB12A5 /* Indent.cpp in Sources */,
+				B90806A628D815DE00BB12A5 /* LineLength.cpp in Sources */,
+				B90806A728D815DE00BB12A5 /* Allowance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,14 +378,66 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B9E8FEA728B43065009558BB /* PBXTargetDependency */ = {
+		B908069828D8145C00BB12A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9E8FE7C28B42648009558BB /* Indent */;
-			targetProxy = B9E8FEA628B43065009558BB /* PBXContainerItemProxy */;
+			target = B908069028D8144D00BB12A5 /* IndentFloods */;
+			targetProxy = B908069728D8145C00BB12A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B908069328D8144D00BB12A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B908069428D8144D00BB12A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B90806A328D815D700BB12A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B90806A428D815D700BB12A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B9E8FE7F28B42648009558BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,28 +551,6 @@
 			};
 			name = Release;
 		};
-		B9E8FE8228B42648009558BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEAD_CODE_STRIPPING = YES;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B9E8FE8328B42648009558BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEAD_CODE_STRIPPING = YES;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B9E8FE9028B426C1009558BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -501,6 +574,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B908069228D8144D00BB12A5 /* Build configuration list for PBXNativeTarget "IndentFloods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B908069328D8144D00BB12A5 /* Debug */,
+				B908069428D8144D00BB12A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90806A228D815D700BB12A5 /* Build configuration list for PBXNativeTarget "IndentStd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90806A328D815D700BB12A5 /* Debug */,
+				B90806A428D815D700BB12A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9E8FE7828B42648009558BB /* Build configuration list for PBXProject "Indent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -510,16 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9E8FE8128B42648009558BB /* Build configuration list for PBXNativeTarget "Indent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9E8FE8228B42648009558BB /* Debug */,
-				B9E8FE8328B42648009558BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9E8FE8F28B426C1009558BB /* Build configuration list for PBXNativeTarget "Test" */ = {
+		B9E8FE8F28B426C1009558BB /* Build configuration list for PBXNativeTarget "IndentTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9E8FE9028B426C1009558BB /* Debug */,

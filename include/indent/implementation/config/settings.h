@@ -16,11 +16,6 @@
 #pragma once
 
 // This header must include output streams, string and string streams
-#include <ostream>
-#include <string>
-#include <sstream>
 
-#define INDENT_CHAR char
-
-#define INDENT_IOS_NAMESPACE std
-
+#define INDENT_USE_STD
+//#define INDENT_USE_FLOODS

@@ -67,6 +67,42 @@
 
 #pragma once
  
+ #if !defined(INDENT_IOS_NAMESPACE) && \
+	!defined(INDENT_USE_STD) && \
+	!defined(INDENT_USE_FLOODS)
+# ifdef INDENT_GUESS_QUIETLY
+#  define INDENT_USE_STD
+# else
+#  warning "INDENT_IOS_NAMESPACE not defined, guessing INDENT_USE_STD"
+# endif
+#endif
+
+#ifdef INDENT_USE_STD
+
+# include <ostream>
+# include <string>
+# include <sstream>
+
+# ifndef INDENT_CHAR
+#  define INDENT_CHAR char
+# endif
+
+# define INDENT_IOS_NAMESPACE std
+#endif
+
+#ifdef INDENT_USE_FLOODS
+
+# include <floods/floods.h>
+# include <floods/sstream.h>
+
+# ifndef INDENT_CHAR
+#  define INDENT_CHAR char
+# endif
+
+# define INDENT_IOS_NAMESPACE floods
+
+#endif
+
 #ifndef INDENT_CHAR
 # ifdef INDENT_GUESS_QUIETLY
 #  define INDENT_CHAR char
